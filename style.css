@@ -1,0 +1,821 @@
+.home-page-about-skyla-para3{
+    font-size: 14px;
+    color: #ffffff ;
+    font-family: "Roboto";
+}
+.home-page-about-skyla-para2{
+    font-size: 12px;
+    color: #ffffff;
+}
+.home-page-about-skyla-para1{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.home-page-about-skyla-card{
+    height: 60vh;
+    background-color: #c9285e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.need-help-call-text{
+    color:#ffffff;
+    font-size: 13px;
+    margin-left:12px;
+    margin-top:3px;
+}
+
+.need-help-call-button{
+    width:250px;
+    background-color: #c9285e;
+    padding-top: 14px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.bg-input{
+    margin: 10px;
+   
+}
+.need-help-section-input1-container{
+    padding:20px;
+    width:400px;
+    text-align: left;
+}
+.need-help-section-inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.need-help-section-para{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.your-plans-section-first-card-para3{
+    font-size: 11px;
+    color:gray;
+    font-weight: 400;
+}
+.your-plans-section-first-card-para2{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+}
+.your-plans-section-first-card-para1{
+    font-size: 10px;
+    color:#74696d;
+}
+.your-plans-section-first-card-image{
+    height: 130px;
+    width: 180px;
+    border-radius: 15px;
+}
+.your-plans-section-first-card{
+    border:1px solid rgb(182, 179, 179);
+    border-radius: 25px;
+    padding:15px;
+    width:40vw;
+    margin:15px;
+}
+.one-bedroom-button{
+    color:black !important;
+    font-weight: 500;
+}
+.premier-button-width{
+    width:200px;
+}
+.premier-button{
+    color:#c9285e !important;
+    font-weight: 500;
+}
+.five-star-image{
+    width:100px;
+}
+.dhoni-width{
+    width:70px;
+}
+
+.ms-dhoni{
+    height: 70px;
+    border-radius: 100px;
+    margin-top:25px;
+}
+.reviews-rating-para{
+    text-align: center;
+    font-size: 20px;
+}
+.rating-span{
+    color:orange;
+}
+.family-friendly-icon2{
+    height: 30px;
+}
+.family-icon-text-container{
+    text-align: center;
+}
+.family-friendly-icon{
+    height: 40px;
+    border-radius: 50px;
+}
+.family-friendly-text{
+    color:#ffffff;
+    padding-top:5px;
+    font-size: 12px;
+}
+.home-middle-full-width-container-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.home-middle-full-width-container-description{
+    font-size: 35px;
+    color:#ffffff;
+    font-family: "Caveat";
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+}
+.home-middle-full-width-container-image{
+    height: 65vh;
+    width:45vw;
+    padding-left:20px;
+}
+.home-middle-full-width-container{
+    background-color: #c9285e;
+    height: 65vh;
+   
+}
+.kondapur-card1-para3{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.kondapur-card1-para2{
+    font-size: 19px;
+    font-weight: 500;
+}
+.locations-cards-container{
+    margin-top:40px;
+    margin-bottom:50px;
+}
+.kondapur-card1-para1{
+    color:#aba9aa;
+    font-size:16px;
+    padding-top:10px;
+}
+.kondapur-card1-image{
+    width:100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.kondapur-card1-border{
+    border-width:1px;
+    border-color:#aba9aa;
+    border-style: solid;
+    width: 30vw;
+    border-radius: 10px;
+    padding:20px;
+}
+.view-locations-para2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+.kondapur-left-margin{
+    margin-left: 0px;
+}
+.view-locations-para1{
+    font-size: 18px;
+    font-weight: 500;
+    color:#c9285e;
+    margin-right:20px;
+}
+.view-locations-heading{
+    color:#c9285e;
+    font-family: "Caveat";
+    font-weight: bold;
+    margin-top:80px;
+    text-align: center;
+    margin-bottom:40px;
+    font-size: 40px;
+    width:100%;
+}
+.view-locations-heading-width{
+    width: 80%;
+}
+.inputs-bg-container{
+    background-color: rgba(43, 45, 43, 0.4);
+    padding:35px;
+    width:80%;
+    margin-top:20px;
+}
+.inputs-bg-container2{
+    background-color: #74696d;
+    padding:35px;
+    width:100%;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
+.label-text{
+    color:#ffffff;
+    font-size: 12px;
+}
+.input-button{
+    height: 40px;
+    width:120px;
+    margin-top:26px;
+    border:0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#c9285e ;
+    color:#ffffff;
+}
+.input-icon4{
+    padding-left: 25px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8A2wOvDj7sAobit1mD4lCc6ilEaBm_CF3AQ&s") no-repeat left;
+    background-size: 20px;
+    background-color: #ffffff;
+    border-color: pink;
+    border-top :0px;
+    border-left :0px;
+    border-bottom:0px;
+    height: 40px;
+    margin-right: 0px;
+    width: 160px;
+    font-size: 12px;
+}
+
+.input-icon3{
+    padding-left: 10px;
+    /*background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAAACAgLPz8+9vb3W1tZJSUm4uLgzMzM7Ozu1tbXLy8sGBgaCgoJUVFTd3d3w8PDn5+fDw8OlpaVpaWny8vImJiZDQ0P4+PhdXV0vLy82NjZjY2Ovr6/i4uKHh4eUlJScnJwfHx8RERGWlpZNTU1xcXF3d3cXFxdbelQ/AAAFB0lEQVR4nO2d62KqOhBGjYD11iq4UbQqXmp73v8Jj0ECEwjWai7UfuvnDIEssWQIKXY6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYIImiRJmIGxN+Q2LalHBKeGDsPVQktvNzYqpKnFsMVInJOdFvn+KanUkViU+eeFUklk0tGnfllhXrdtlSkRjwxEmR6PPEWpE48MSb5v49Tv+qoaq/702G819nyJ7ccHGPIWuHYeiNCoLsg++RiCBTXwS1uJf95b7VW3gHbtgjLTzVNdo48e7IJLrn/qppzNweP37EtgUjlYe6w5oSkV3BzaUbBqnun7GNTcGAXz2snkMeCCwanrIjfm6GBX52pVm8DGtkF5SBX4u/XK5N9QbDQ7XFhtdF6rLBEF52Cj0ppne0qLbwshPpKTY2Q8oFh3LM8Ig/5Ib2atXluc/HSkyvYX3EHzP17s3QOx9tUIld+ZZqqUv753PYu6u396DHcPC7DPeXC/pHbds8sb89sbskZnLUteGM5cVZtcMzMbrNbk3s1QnHhtMxE5WHXCRPWZGQ5yvCMhE3JMZSC8eGQ1FjVWurTSny84Q0Hjk23BVVZGVGJi0T6W2J1zKxo/H2GMr9/ShP7q7T0EJOpO00HJVfLV/aMioTUSXRVSf8ssWIxh0bJoO8X2xemec8iP5WJkCTlUjM5QYJr2iyxEBq4Xq08PIbnFpxHDQlihbVe6KGhGvDTnDipfGiXv0HPZ7o1e/tvMbEgidOlYRzw7PKZhOopuITnlDupimhbNECQ8PAUC8wNMHzG75bN+wHnk2ClW3Dphl8o9g1tK3ID2jZ0DpP/y21bchWkW+TaM4wWugEI74JYKiXv2UYhwSxwfTmII1NVUExX+zMMF6xcYGYw41ZGeyKGZqAdcsNxSTMiLTuitnvId1lP3ZsOJVG5ZkqGAkZSq7tS8H8zO6l4NS9IamrCkNabOWGHtmSGNItc5kZ3eW4BecQhjCEIQxhCEMYSvVHvhIj/L6mGQnD1tc0yXrVL1jlZyZZlMHV+/YSDAdkw0Eus+2T4CJ/dDWak+A6cWxoDRjqBYYmgKFe/pbh/pUwyYMpDeYDWkyDaT6Oh3RDsZxqQoNisSNGfJOGqqqNBh+s2lpq+Fx1KQxhCEMYwrA9hqy1hoRrT2Y8KVga1ssXqabpujaMpX5vrhgGKkP534mLc0hxbdiZjMrFZyOxRlha8yaC0jq1PJZIa9dEkO5SFPO4e9ILDE0AQ738LcNwQhCXzS0NilaT74L55HgnoUGxLsXdeHj4djwsVptQitUmiqFvQ2Nz1+Oh1tUmqpqmrfM0qLxhCEMYwhCGMLzvucVvmqd5qmdPyddbifj/62RNgm9itcmSxJZitQndUCws8U5kl19YbWIEGJoAhnqBoQncjRbpv5K1mLX+IsF/el6v2pIRX7naxG/e0Q/4BVXbg7TNUFF5PwgM9QJDGN4DDPUCw2czrM9iKJ/MPIi7p2vS2/WVT9dGzTv6Ae7uLbYBQTwhndCgnmPi7kkvbgy7Fg35G8v/s3a0C0erbyx/ZbUXq5qGv7hV+ZtKZsjW2x2232+ojcnB7oeaZK9TP6ZeYAdvx7+jlZfSmiVq/o0YQ/CjWf27+LCrmB2r/kZ7o8wuB7bCxdLqz8xwtp/HKx+6bo6fNq9rgtjzX+zge9Z/7QkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCv/AxMmhVCGevg0AAAAAElFTkSuQmCC") no-repeat left;*/
+    background-color: #ffffff;
+    border-color: pink;
+    border-top :0px;
+    border-left :0px;
+    border-bottom:0px;
+    height: 40px;
+    margin-right: 0px;
+    width: 160px !important;
+    font-size: 12px;
+    
+}
+
+.input-icon2{
+    padding-left: 25px ;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAADx8fHd3d3X19fl5eVycnIgICD4+PgjIyMZGRkfHx8TExMbGxuFhYUEBAQPDw9bW1t+fn4xMTFnZ2cRERE4ODjNzc0qKiqNjY3n5+eioqKzs7OQkJBWVlaXl5fDw8NOTk5BQUGoqKh4eHjIyMgvbSkAAAADz0lEQVR4nO3bC1fiOhSG4QbENpeSSK2AOuo5M/P//+LZCRcLZRYMnk7DrPdxISUpNh+7lEZrUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4KZP3x433ydhDGcZMfZqNPZhBPHUSPo09mCHMlN/lk4XnsYczgKnquht7OAMg4e0j4e0j4e0j4e0j4e0j4e37VcLpy+J+/rqfE1eP9xeYv3zkN4s+nfBjtW143E6KK3Wp1XtmU7CTCR/jZNFvZo7fU8tlCf3hy5KHfsKq+OdzVixe4mqX1zD5NnKqrhM1nCv/Oe+XpWXxewnjc57yeT/2E06PR7wqfruGYjp2sp1+wvvjkqif1yTM5hd3/YT9sd5fldBlsqP2EvZ20vRLxisSqrfdNqrv843XLBIuT4z1uoRqG+jZ7Vv0CHW9JKG/JKH3/bYqbeLfTstDBgmv20vDqmma9rg1fZTODsL/+SKeP9J49eN8wsaGOjTHZXRxC3cHTX/+CHv+00Kpj7MJXdM2ZeP0cfsyy4QzpQ5r0RRnE9qVDs7Wq8NWr+ZZJizWRweNu/MJ26bVurTlcftTngmLt4O2NLn4dcIQ4vfVytVNHXq9eSacVN234pnZk9ebN5/VvTfhNlBuCauqmlTFx+7vprup3mRfMtmD96XyshRcCJ+163bH5mV2CauUsCqq6ct6sX6dxMdSwWryYz5fLBbybZ5u28VF/EpNuwe77m3DXXYJB9/C2Am1knPIWvYzV6u4YIxyQR7KI5PajdysauUWu+MJZ1pTtNLlrdxic1zVeiOrHxs9YRx5GZyv44HfurqWjMoEeRSbTNAqyL1zsVuHGCCuWUqzid1WVrPKtVZeAqvViYPP6AllbL6spRhxcFoWYwjTaq+C3SY0Uuh09qKDlM+X1sstxOC1vBKh3nTXQaeXIR17MkpYygBLr9UmoTNOl1oHiarLUB8mtNrZkHZsHYu1T2jK1O3lOVae2hqXVUKlnQ8yrk1CpY2Pn3jKaW+N7IpG0gW5d0bK6zenoVJfXzopcewu0710S3vpfSvvSVvnlVCZso67Vb155Z2UsJRKeWtTU6yanLl47ZSx2+KEMtUydseTGrn3pUntsgNLbQ9PdMZPODQSkpCE5xIuJ/+/n1klHOK89O8/8ybh0Ej4dSQcGgm/joRDI+HXkXBoJPw6Eg6NhF9HwqF1/4XUD7L96cHVJiNcXtt0AjaDbEF3rnwY479Uu7vpMFdMDr+FMybrh+jtYT3U9UrPc/np0bdMLlcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcKn/AGH8M7Wfy6gFAAAAAElFTkSuQmCC") no-repeat left;
+    background-size: 30px;
+    background-color: #ffffff;
+    border-color: pink;
+    border-radius:0px;
+    height: 40px;
+    margin-right: 0px;
+    width:160px;
+    font-size: 12px;
+}
+
+.location-white-bg{
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-icon{
+    padding-left: 25px;
+    background: url("https://media.istockphoto.com/id/1148705812/vector/location-icon-vector-pin-sign-isolated-on-white-background-navigation-map-gps-direction.jpg?s=612x612&w=0&k=20&c=lqEIzW3QedZfytsX30NoBJbHxZZbWnlLsvEiwOSbaow=") no-repeat left;
+    background-size: 20px;
+    background-color: #ffffff;
+    border:0px;
+    height: 40px;
+    margin-right: 0px;
+    width: 160px;
+    font-size: 12px;
+}
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+.home-bg-image-para2{
+    font-size:19px;
+    color:#ffffff;
+    width:600px;
+    font-weight:500;
+    margin-top: 30px;
+}
+.home-bg-image-para1{
+    font-size:33px;
+    color:#ffffff;
+    font-weight:600;
+    font-family: "Roboto";
+    width:500px;
+}
+.bg-image{
+    background-image: url("https://www.montdorinterior.com/wp-content/uploads/2022/07/5bhk-bungalow-adani-shantigram9-1024x683.webp");
+    height:75vh;
+    background-size:cover;
+    border-radius: 15px;
+    margin-top:16px;
+    padding:60px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.email-container{
+    margin-top:30px;
+    margin-left:30px
+}
+.email-icon{
+    color:#c9285e;
+}
+
+.email-text{
+    color:#c9285e !important;
+    font-weight: bold; 
+    
+}
+.skyla-icon-container{
+    width:100px;
+}
+.home-icon{
+    color:#c9285e;
+    text-align: center;
+}
+.skyla{
+    color:#c9285e;
+    font-family: "Caveat";
+    font-weight: bold;
+}
+
+
+
+/*KONDAPUR MIDDLE SECTION*/
+.kondapur-heading{
+    font-size: 35px;
+    color:rgb(132, 67, 67);
+    text-align: center;
+}
+.kondapur-para{
+    font-size: 20px;
+    color:rgb(132, 67, 67);
+    text-align: center;
+    font-family: "Roboto";
+}
+.kondapur-premier-room-image1{
+    border-radius: 25px;
+    height: 40vh;
+    width: 100%;
+}
+.kondapur-premier-room1-heading{
+    font-size: 25px;
+}
+.kondapur-premier-room1-price{
+    color:#b91d51;
+    font-size: 22px;
+    font-weight: bold;
+}
+.validity{
+    color:gray;
+    font-size: 16px;
+}
+
+/*JUBILEE HILLS SECTION*/
+.jubilee-hills-button-style{
+    background-color: #b91d51;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/*hover-text*/
+/* Default text color */
+.hover-text {
+    color: black;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Text color when hovered */
+.hover-text:hover {
+    color: red; /* Change this to your desired color */
+}
+
+/*ABOUT SKYLA SECTION IN WHY SKYLA*/
+.about-skyla-find-locations-bg-container{
+    height: 70vh;
+    background-color: #b91d51;
+}
+.about-skyla-find-locations-heading{
+    font-size: 35px;
+    color:#ffffff;
+    width: 40vw;
+}
+
+.about-skyla-locations-card{
+    background-color: #ffffff;
+    border-radius: 2px;
+    width:100%;
+}
+.box{
+    width:175px;
+    height: 135px;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Background color on hover */
+.box:hover {
+    background-color: #f47a92; /* Lighter pink red mix for hover effect */
+}
+/* Background color when active */
+.box.active{
+    background-color: #e43377; /* Active background color */
+    color: white;
+}
+.about-skyla-location-bg-image{
+    height: 70vh;
+    width: 40vw;
+}
+
+
+
+
+.input-field{
+    height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    display: block;
+    width: 40%;
+    font-weight: 400;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 2px solid black;
+
+}
+.why-skyla-about-skyla-3rd-section-card-container{
+    border-radius: 10px;
+    padding:25px;
+    width:40%;
+}
+.why-skyla-about-skyla-4th-section-container{
+    height: 40vh;
+    width:100%;
+    background-color: #e43377;
+    padding-left:20px;
+}
+.our-story-image{
+    height: 40vh;
+}
+.our-story-description{
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: normal;
+}
+.color{
+    color:#c9285e;
+}
+
+
+
+.padding-navbar{
+    margin-left:60px;
+    margin-right:85px;
+    margin-top:10px;
+}
+
+.home-top-bg-margin{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.input-field2{
+    
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    
+}
+
+.input-field2[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-repeat:  no-repeat;
+    
+}
+
+.input-field2[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    
+}
+
+.input-field2::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 10%;
+}
+.input-field2::-webkit-datetime-edit {
+    position: relative;
+    left: 10%;
+}
+
+.width-full{
+    width:400px;
+}
+
+.carousel-height{
+    height: 20vh;
+
+}
+.prev-color{
+    background-color: #b14066;
+    height: 25px;
+    width:25px;
+    margin-top:50px;
+}
+.carousel-text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ms-dhoni-para{
+    font-size: 14px;
+}
+.dropdown-margin-left{
+    margin-left:135px;
+}
+.dropdown-margin-left2{
+    margin-left: 30px;
+}
+.text-warning-size{
+    font-size: 10px;
+    width:80%;
+}
+/* Basic styles for the spinner */
+.spinner {
+    border: 8px solid #f3f3f3; /* Light gray */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite; /* Spin animation */
+    margin: auto;
+    display: none; /* Hidden by default */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Centering the spinner */
+.spinner-container {
+    background-color: #ffffff;
+    height: 100vh; /* Full viewport height */
+    display: none;
+}
+
+.search-result-margin{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.kondapur-premier-room-search-image{
+    border-radius: 25px;
+    height: 50vh;
+    width:50vw;
+    margin-bottom: 20px;
+}
+
+.search-font{
+    font-size: 20px;
+    font-weight: bold;
+}
+.border-radius{
+    border-radius: 10px;
+}
+.bg-border{
+    border:1px #ccc;
+    border-radius: 2px;
+    border-style: solid;
+}
+.gray-color{
+    color:gray;
+}
+.price-details-padding{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.inputs-width{
+    width: 100%;
+}
+.font-size-form{
+    font-size: 13px;
+}
+.font-size-form2{
+    font-size: 10px;
+}
+.form-bg{
+    background-color: skyblue;
+    padding:20px;
+}
+.form-input-border{
+    border-top:0px;
+    border-left:0px;
+    border-right: 0px;
+    border-bottom: 1px solid;
+    width: 100%;
+    background-color: skyblue;
+    outline: none; /* Remove outline */
+    box-shadow: none; /* Optional: remove any box-shadow */
+}
+
+.carousel-width-form{
+    width:60%;
+}
+.form-width{
+    width: 40%;
+}
+.tax-size{
+    font-size:14px;
+}
+.text-warning-size2{
+    font-size: 13px;
+    color:#b91d51;
+}
+.message-box{
+    border:gray;
+    width:90%;
+    height: 50px;
+    padding: 8px;
+    font-size: 15px;
+    border-top:1px solid rgb(196, 194, 194);
+}
+.userSent{
+    width:70%;
+    border-radius: 10px;
+    background-color: #495057;
+    padding: 10px ;
+}
+
+/*FORM*/
+#contactForm{
+    padding:20px;
+    background-color: #aedaf8;
+}
+#name{
+    border:none;
+    background-color: #aedaf8;
+    outline: none;
+    border-bottom: 1px solid rgb(167, 178, 180);
+    width: 100%;
+    margin-bottom: 10px;
+}
+#email{
+    border:none;
+    background-color: #aedaf8;
+    outline: none;
+    border-bottom: 1px solid rgb(167, 178, 180);
+    width: 100%;
+    margin-bottom: 10px;
+}
+#mobile{
+    border:none;
+    background-color: #aedaf8;
+    outline: none;
+    border-bottom: 1px solid rgb(167, 178, 180);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.form-button{
+    width: 50%;
+    border-radius: 50px;
+}
+/*CHAT BOX*/
+
+.font-size{
+    font-size: 16px;
+    font-style:calc();
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.chat-message{
+    background-color: #74696d;
+    color:#ffffff;
+}
+.chat-box {
+    text-align: right;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.chat-box div {
+    margin: 5px 0;
+}
+
+input[type="text"] {
+    border:1px solid #ccc;
+    margin-right: 10px;
+    padding: 10px;
+    flex: 1;
+    width: 80%;
+}
+input[type="text"]::placeholder {
+    color: #aaa; /* Change this to your desired color */
+    opacity: 1;  /* Ensure it's fully opaque */
+}
+
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgb(69, 64, 220);
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.message-div{
+    background-color: #3d3739;
+    color:#ffffff;
+    padding:20px;
+    width:100%;
+    border-radius: 10px;
+}
+.user-height{
+    height: 50px;
+}
+.delete-button{
+    font-size: 13px;
+    background-color: rgb(220, 64, 64);
+}
+/*CHAT BOX END*/
+.enquiry-price-details-bg{
+    background-color: #3d3739;
+    color:#ffffff;
+    padding:10px;
+    width:80%;
+    border-radius: 10px;
+}
+.size{
+    font-size: 25px;
+}
+.hr-color{
+    border: none; /* Remove default border */
+    height: 2px; /* Thickness of the line */
+    background-color: #ccc; /* Color of the line */
+    margin: 10px 0; /* Space above and below the line */
+}
+.one{
+    font-size: 18px;
+    font-weight: 600;
+}
+.two{
+    font-size: 14px;
+    font-weight: 100;
+}
+.three{
+    font-size: 21px;
+    font-weight: 600;
+}
+.four{
+    font-size: 14px;
+}
+.message-container {
+    margin: 10px 0; /* Space between messages */
+}
+
