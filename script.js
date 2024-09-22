@@ -26,11 +26,11 @@ function formatTime(timestamp) {
         timeAgo = yearsAgo + " years ago";
     }
 
-    const options = { day: 'numeric', month: 'long', year: 'numeric' };
+    const options = { day: 'numeric', month: 'short', year: 'numeric' };
     const dateString = messageTime.toLocaleDateString('en-GB', options);
     const timeString = messageTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
-    return `${timeAgo} (sent on ${dateString} at ${timeString})`;
+    return ` ${dateString}  ${timeAgo}`;
 }
 
 function displayMessages() {
@@ -41,17 +41,20 @@ function displayMessages() {
     messages.forEach(msg => {
         const messageContainer = document.createElement('div');
         messageContainer.className = 'message-container';
-        
+
         const textContainer = document.createElement('div');
         textContainer.className = 'text-container';
+        textContainer.className = 'message-div';
         textContainer.innerHTML = `<i class="fas fa-user"></i> ${msg.text}`;
 
         const timestampContainer = document.createElement('div');
         timestampContainer.className = 'timestamp-container';
+        timestampContainer.className = 'time-style';
         timestampContainer.innerHTML = `<span class="timestamp">${formatTime(msg.timestamp)}</span>`;
         
-        messageContainer.appendChild(textContainer);
+        
         messageContainer.appendChild(timestampContainer);
+        messageContainer.appendChild(textContainer);
         chatBox.appendChild(messageContainer);
     });
 }
@@ -71,17 +74,21 @@ document.getElementById('send-button').addEventListener('click', function() {
 
         const messageContainer = document.createElement('div');
         messageContainer.className = 'message-container';
+        
 
         const textContainer = document.createElement('div');
         textContainer.className = 'text-container';
+        textContainer.className = 'message-div';
         textContainer.innerHTML = `<i class="fas fa-user"></i> ${message}`;
 
         const timestampContainer = document.createElement('div');
         timestampContainer.className = 'timestamp-container';
+        timestampContainer.className = 'time-style';
         timestampContainer.innerHTML = `<span class="timestamp">${formatTime(timestamp)}</span>`;
+        
 
-        messageContainer.appendChild(textContainer);
         messageContainer.appendChild(timestampContainer);
+        messageContainer.appendChild(textContainer);
         chatBox.appendChild(messageContainer);
 
         input.value = '';

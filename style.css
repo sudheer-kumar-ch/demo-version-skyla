@@ -664,12 +664,13 @@
     font-size: 15px;
     border-top:1px solid rgb(196, 194, 194);
 }
+/*
 .userSent{
     width:70%;
     border-radius: 10px;
     background-color: #495057;
     padding: 10px ;
-}
+}/*
 
 /*FORM*/
 #contactForm{
@@ -739,41 +740,38 @@ body {
     align-items: end;
 }
 
-.chat-box div {
+.chat-box{
     margin: 5px 0;
 }
 
-input[type="text"] {
+.input-style{
     border:1px solid #ccc;
     margin-right: 10px;
     padding: 10px;
     flex: 1;
     width: 80%;
 }
-input[type="text"]::placeholder {
+.input-style[type="text"]::placeholder {
     color: #aaa; /* Change this to your desired color */
     opacity: 1;  /* Ensure it's fully opaque */
 }
-
-
-button {
+.chat-button {
     border: none;
     padding: 10px;
     background-color: rgb(69, 64, 220);
     color: white;
     cursor: pointer;
-    width: 100px;
-    border-radius: 30px;
+    width: 150px;
+    border-radius: 50px;
 }
-
-button:hover {
+.chat-button:hover {
     background-color: #218838;
 }
 .message-div{
     background-color: #3d3739;
     color:#ffffff;
     padding:20px;
-    width:100%;
+    width:62vw;
     border-radius: 10px;
 }
 .user-height{
@@ -818,4 +816,10 @@ button:hover {
 .message-container {
     margin: 10px 0; /* Space between messages */
 }
-
+.time-style{
+    color:#aaa;
+    font-size: 15px;
+}
+.icon-size{
+    height: 100px;
+}

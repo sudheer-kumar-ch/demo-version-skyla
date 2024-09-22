@@ -232,19 +232,34 @@ function findFunction(){
 }
 
 
+
 // Function to validate form inputs
-function validateForm() {
+function validateForm(event) {
+    event.preventDefault();
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var mobile = document.getElementById("mobile").value;
 
+    if (!name || !email || !mobile) {
+        alert("Please fill out all fields.");
+        return;
+    }
+
+    if (!/^[0-9]{10}$/.test(mobile)) {
+        alert("Please enter a valid 10-digit phone number.");
+        return;
+    }
+
+    // Show success message
+    alert("Message sent successfully!");
+    window.location.href = "requestenquiry.html";
     // Simple validation checks
     if (name === "" || email === "" || mobile === "") {
         alert("Please fill all fields");
         return false;
     } else {
         // If the form is valid, navigate to the next page
-        window.location.href = "requestenquiry.html";
+       
         return false; // Prevent actual form submission
     }
 }

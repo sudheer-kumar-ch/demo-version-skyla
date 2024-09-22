@@ -89,11 +89,13 @@
     <div id="enquiryPage" class="price-details-padding">
         <div class="d-flex flex-row search-result-margin">
           <div ><!--SEARCH RESULTS HOME ICON-->
-            <svg onclick="goToHomePage()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house"
+            <a href="index.html" class="gray-color">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house"
               viewBox="0 0 16 16">
               <path
                 d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
             </svg>
+          </a>
           </div>
           <div class="mr-3 ml-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right"
@@ -115,21 +117,21 @@
         <h5 class="text-danger font-size">Your enquiry has been submitted to SKYLA reservation team,<br/>
           You can provide additional information in below message box which you think will help us serve you better.
         </h5>
-        <div class="bg-border mt-4 mb-5 w-75"><!--message box-->
+        <div class="bg-border mt-4 mb-5 w-100"><!--message box-->
           <h6 class="pl-3 pt-2">Message Box</h6>
           <!--CHAT BOX-->
         <div class="chat-container p-3">
           <div class="d-flex flex-row">
-            <input type="text" id="message-input" placeholder="Please type your text, and SKYLA reservation team will respond at the earliest (You will get an email & SMS notification when they respond)">
-            <button id="send-button">Send</button>
-            <button id="delete-button" class="delete-button">
+            <input type="text" id="message-input" class="input-style" placeholder="Please type your text, and SKYLA reservation team will respond at the earliest (You will get an email & SMS notification when they respond)">
+            <button class="chat-button" id="send-button">Send</button>
+            <button id="delete-button" class="delete-button chat-button ml-3">
               <i class="fas fa-trash"></i> Delete All Messages
           </button>
           </div>
-          
           <p id="error-message" style="color: red; margin-top: 5px;"></p> <!-- Error message element -->
           <div class="chat-box d-flex justify-content-end" id="chat-box"></div>
           </div>
+          <!--CHAT BOX END-->
           <div class="p-3">
           <div class="d-flex flex-row justify-content-end"> <!---->
             <div class="enquiry-price-details-bg">
@@ -196,7 +198,7 @@
           </div><!---->
           </div>
       </div>
-       <!--CHAT BOX END-->
+      <!--message box end-->
           <!--<div class="p-5 d-flex flex-row">
           <input id="userMessage" type="text" class="message-box shadow-sm" placeholder=""/>
             <button onclick="functionClick()" id="sendButton" class="btn btn-danger ml-3">Send</button>
