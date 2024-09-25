@@ -56,7 +56,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         </div>
       </div><!--TOP NAV FIRST THREE END-->
       <div class="d-flex flex-row ml-auto"><!--TOP NAV LAST FOUR-->
-      <a href="#findStaySection" class="email-text email-container">Find a Stay</a>
+      <a href="index.html#findStaySection" class="email-text email-container">Find a Stay</a>
         <!---->
         <div class="dropdown show email-container">
           <a class="email-text " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
@@ -530,7 +530,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             <button class="btn btn-light  need-help-section-input1-container shadow" type="button"
               id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Why Is Skyla Better Than A Regular Hotel?
-              <span class="dropdown-margin-left2"></span>
+              <span class="dropdown-margin-left2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
                   <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
                 </svg>
@@ -592,10 +592,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <div class="d-flex justify-content-center">
       <div class="d-flex flex-row inputs-bg-container2"><!--HOME BG IMAGE INPUTS BG CONTAINER-->
         <!--LOCATION INPUTS-->
-        <div class="d-flex flex-column">
-          <label for="setLocation" class="label-text">Select Location</label>
+        <div class="d-flex flex-column select-container-width w-25">
+          <label for="setLocation" class="label-text select-label-text">Select Location</label>
           <div class="pl-2 location-white-bg">
-          <select id="setLocation" class="form-control input-icon">
+          <select id="setLocation" class="form-control input-icon select-date-width">
             <option value="Select Location" selected>Select Location</option>
             <option value="Kondapur" >Kondapur</option>
             <option value="Jubilee Hills">Jubilee Hills</option>
@@ -609,10 +609,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <!--LOCATION INPUTS END-->
 
         <!--SELECT STAY TYPE INPUTS-->
-        <div class="d-flex flex-column">
-          <label for="status" class="label-text">Select Stay Type</label>
+        <div class="d-flex flex-column select-container-width 25">
+          <label for="status" class="label-text select-label-text">Select Stay Type</label>
           
-          <select id="status" class="form-control input-icon2">
+          <select id="status" class="form-control input-icon2 select-date-width">
             <option value="Select Stay Type" selected>Select Stay Type</option>
             <option value="Premier Room">Premier Room</option>
             <option value="One-bedroom Suite">One-bedroom Suite</option>
@@ -628,14 +628,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         </div>
         <!--SELECT STAY TYPE INPUTS END-->
         <!---->
-        <div class="d-flex flex-column">
-          <label for="selectDate" class="label-text">Check In - Check Out</label>
-          <input id="dateInput"  type="date" min="" class="input-field2 input-icon3" ></input>
+        <div class="d-flex flex-column w-25">
+          <label for="selectDate" class="label-text select-label-text">Check In - Check Out</label>
+          <input id="dateInput"  type="date" min="" class="input-field2 input-icon3 select-date-width" ></input>
           
         </div>
-        <div class="d-flex flex-column">
-          <label for="members" class="label-text">Guests</label>
-          <input id="members" type="text" class="input-icon4" value placeholder="Room2 - Adult2 - 1Child"></input>
+        <div class="d-flex flex-column w-25">
+          <label for="members" class="label-text select-label-text">Guests</label>
+          <input id="members" type="text" class="input-icon4 select-date-width" value placeholder="Room2 - Adult2 - 1Child"></input>
         </div>
         <button onclick="findFunction()" class="input-button">Find <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
               fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -647,7 +647,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 
     <!--searchResults bottoms text and cards-->
-    <div>
+    <div class="d-flex flex-row">
+      <div>
       <h2 id="serachResultsLocationName" class="search-result-margin"></h2>
       <div class="w-50 ">
         <a href="formpage.html" target="_blank">
@@ -665,10 +666,53 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         </div>
       </div>
     </div>
-      
+  </div>
+
+  <!--OFFERS COUPON CODE-->
+  
+  <div class="mt-5 ml-5 d-flex flex-row">
+    <img class="special-offer-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhIOao_VJY41beS-qfPF9fKQrTFrSXkgBuFQ&s" />
+    <div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Special Offer 
+    </button>
+    
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog mt-5">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                Gift Voucher
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="w-100"
+              />
+            </div>
+            <div class="modal-footer">
+              <p>coupon code <span class="text-danger">DISCOUNT50</span></p>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  <!--OFFERS COUPON CODE END-->
     </div>
+    
     </div>
+    
     <!-- SEARCH RESULTS END-->
+
+    
 
     <!--HOME PAGE BOTTOM SECTION ABOUT SKYLA-->
     <div id="homeSectionThree" class="home-page-about-skyla-card ">
@@ -738,11 +782,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   </div><!--HOME BG CONTAINER END-->
 
 
-
-
-
-
-
   <!---->  
   <!---->
   <!-- Optional JavaScript -->
@@ -756,6 +795,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   <script src="dynamic.js"></script>
 </body>
 

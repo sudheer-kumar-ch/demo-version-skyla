@@ -234,9 +234,24 @@ function findFunction(){
 
 
 // Function to validate form inputs
-function validateForm(event) {
-    event.preventDefault();
-    var name = document.getElementById("name").value;
+function validateForm() {
+    //const result = confirm("Are you sure?");
+    
+    window.open("requestenquiry.html","_blank");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var mobile = document.getElementById("mobile").value;
 
@@ -251,18 +266,18 @@ function validateForm(event) {
     }
 
     // Show success message
-    alert("Message sent successfully!");
-    window.location.href = "requestenquiry.html";
+    window.location.href = "requestenquiry.html";*/
+
     // Simple validation checks
-    if (name === "" || email === "" || mobile === "") {
+    /*if (name === "" || email === "" || mobile === "") {
         alert("Please fill all fields");
         return false;
     } else {
         // If the form is valid, navigate to the next page
        
         return false; // Prevent actual form submission
-    }
-}
+    }*/
+
 /*let sendButton = document.getElementById("sendButton");
 sendButton.style.color = "green";
 let messagesBox = document.getElementByIdI("messagesBox");
@@ -276,29 +291,3 @@ sendButton.onclick = function(){
 }
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//

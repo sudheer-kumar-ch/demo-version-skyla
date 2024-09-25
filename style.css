@@ -487,8 +487,6 @@
     color:#c9285e;
 }
 
-
-
 .padding-navbar{
     margin-left:60px;
     margin-right:85px;
@@ -556,7 +554,7 @@
     font-size: 14px;
 }
 .dropdown-margin-left{
-    margin-left:135px;
+    margin-left:132px;
 }
 .dropdown-margin-left2{
     margin-left: 30px;
@@ -707,7 +705,7 @@
     width: 50%;
     border-radius: 50px;
 }
-/*CHAT BOX*/
+/*CHAT BOX
 
 .font-size{
     font-size: 16px;
@@ -752,8 +750,8 @@ body {
     width: 80%;
 }
 .input-style[type="text"]::placeholder {
-    color: #aaa; /* Change this to your desired color */
-    opacity: 1;  /* Ensure it's fully opaque */
+    color: #aaa;  Change this to your desired color 
+    opacity: 1;   Ensure it's fully opaque 
 }
 .chat-button {
     border: none;
@@ -781,7 +779,7 @@ body {
     font-size: 13px;
     background-color: rgb(220, 64, 64);
 }
-/*CHAT BOX END*/
+CHAT BOX END*/
 .enquiry-price-details-bg{
     background-color: #3d3739;
     color:#ffffff;
@@ -823,3 +821,134 @@ body {
 .icon-size{
     height: 100px;
 }
+.select-date-width{
+    width:100% !important;
+    font-size: 16px;
+    color: #747171;
+    opacity: 1;
+}
+.select-label-text{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+
+/*for livechatbot*/
+/* styles.css */
+/* Chat Box Container */
+#chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  /* Chat Header */
+  #chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #close-btn {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Chat Window */
+  #chat-window {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: white;
+  }
+  
+  #chat-output {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    margin: 5px 0;
+  }
+  
+  .user-message {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .bot-message {
+    align-self: flex-start;
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  /* Input Area */
+  #chat-input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  #chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #send-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Chat Toggle Button */
+  #chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7e0b1a;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  /* Open chat box */
+  #chat-container.open {
+    display: flex;
+  }
+  
+/*for livechatbot end*/  
+
+/*special offers*/
+.special-offer-image{
+    height: 150px;
+    margin-top:20px;
+}
+/*special offers end

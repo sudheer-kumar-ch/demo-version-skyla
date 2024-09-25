@@ -113,10 +113,10 @@
         <div class="d-flex justify-content-center">
           <div class="d-flex flex-row inputs-bg-container2"><!--HOME BG IMAGE INPUTS BG CONTAINER-->
             <!--LOCATION INPUTS-->
-            <div class="d-flex flex-column">
-              <label for="setLocation" class="label-text">Select Location</label>
+            <div class="d-flex flex-column w-25">
+              <label for="setLocation" class="label-text select-label-text">Select Location</label>
               <div class="pl-2 location-white-bg inputs-width">
-              <select id="setLocation" class="form-control input-icon ">
+              <select id="setLocation" class="form-control input-icon select-date-width">
                 <option value="Select Location" selected>Select Location</option>
                 <option value="Kondapur" >Kondapur</option>
                 <option value="Jubilee Hills">Jubilee Hills</option>
@@ -129,9 +129,9 @@
             </div>
             <!--LOCATION INPUTS END-->
             <!--SELECT STAY TYPE INPUTS-->
-            <div class="d-flex flex-column">
-              <label for="status" class="label-text">Select Stay Type</label>             
-              <select id="status" class="form-control input-icon2 inputs-width">
+            <div class="d-flex flex-column w-25">
+              <label for="status" class="label-text select-label-text">Select Stay Type</label>             
+              <select id="status" class="form-control input-icon2 inputs-width select-date-width">
                 <option value="Select Stay Type" selected>Select Stay Type</option>
                 <option value="Premier Room">Premier Room</option>
                 <option value="One-bedroom Suite">One-bedroom Suite</option>
@@ -147,13 +147,13 @@
             </div>
             <!--SELECT STAY TYPE INPUTS END-->
             <!---->
-            <div class="d-flex flex-column">
-              <label for="selectDate" class="label-text">Check In - Check Out</label>
-              <input id="dateInput"  type="date" min="" class="input-field2 input-icon3 inputs-width" ></input>            
+            <div class="d-flex flex-column w-25">
+              <label for="selectDate" class="label-text select-label-text">Check In - Check Out</label>
+              <input id="dateInput"  type="date" min="" class="input-field2 input-icon3 inputs-width select-date-width" ></input>            
             </div>
-            <div class="d-flex flex-column">
-              <label for="members" class="label-text">Guests</label>
-              <input id="members" type="text" class="input-icon4 inputs-width" value placeholder="Room2 - Adult2 - 1Child"></input>
+            <div class="d-flex flex-column w-25">
+              <label for="members" class="label-text select-label-text">Guests</label>
+              <input id="members" type="text" class="input-icon4 inputs-width select-date-width" value placeholder="Room2 - Adult2 - 1Child"></input>
             </div>
             <button onclick="findFunction()" class="input-button">Find <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                   fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -230,7 +230,7 @@
           <p class="text-danger bold pl-4">Our Guest Policy</p>-->
           <!--Form End-->
           <!--FORM-->       
-            <form  onsubmit="return validateForm()" id="contactForm" action="/send-email" method="POST"> <!--"-->
+            <form  onsubmit="validateForm()" id="contactForm"  > <!--action="http://localhost:3000//send-email"method="POST""-->
               <div class="d-flex flex-column">
                 <div>
                   <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -322,6 +322,7 @@
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="server.js"></script>
     <script src="dynamic.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

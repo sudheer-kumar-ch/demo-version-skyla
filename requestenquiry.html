@@ -117,10 +117,10 @@
         <h5 class="text-danger font-size">Your enquiry has been submitted to SKYLA reservation team,<br/>
           You can provide additional information in below message box which you think will help us serve you better.
         </h5>
-        <div class="bg-border mt-4 mb-5 w-100"><!--message box-->
-          <h6 class="pl-3 pt-2">Message Box</h6>
+        <div class=" mt-4 mb-5 w-100"><!--message box-->
+          <!--<h6 class="pl-3 pt-2">Message Box</h6>-->
           <!--CHAT BOX-->
-        <div class="chat-container p-3">
+        <!--<div class="chat-container p-3">
           <div class="d-flex flex-row">
             <input type="text" id="message-input" class="input-style" placeholder="Please type your text, and SKYLA reservation team will respond at the earliest (You will get an email & SMS notification when they respond)">
             <button class="chat-button" id="send-button">Send</button>
@@ -128,12 +128,12 @@
               <i class="fas fa-trash"></i> Delete All Messages
           </button>
           </div>
-          <p id="error-message" style="color: red; margin-top: 5px;"></p> <!-- Error message element -->
+          <p id="error-message" style="color: red; margin-top: 5px;"></p>  Error message element 
           <div class="chat-box d-flex justify-content-end" id="chat-box"></div>
           </div>
-          <!--CHAT BOX END-->
+          CHAT BOX END-->
           <div class="p-3">
-          <div class="d-flex flex-row justify-content-end"> <!---->
+          <div class=""> <!---->
             <div class="enquiry-price-details-bg">
               <p class="pl-3 one">Skyla Studios & Suites, Kothaguda, Kondapur</p>
               <div class="container-fluid">
@@ -141,13 +141,13 @@
                   <div class="col-4">
                     <div>
                       <p class="two">Check In</p>
-                      <p class="three">22 september 2024</p>
+                      <p class="three">25 september 2024</p>
                     </div>
                   </div>
                   <div class="col-4">
                     <div>
                       <p class="two">Check Out</p>
-                      <p class="three">23 september 2024</p>
+                      <p class="three">26 september 2024</p>
                     </div>
                   </div>
                   <div class="col-4"></div>
@@ -211,7 +211,30 @@
         </div>
          <!--ENQUIRY PAGE END-->
 
-        
+        <!--for livechatbot-->
+<!-- Chat Box Container -->
+<div id="chat-container">
+  <div id="chat-box">
+    <div id="chat-header">Chatbot
+      <span id="close-btn">&times;</span>
+    </div>
+    <div id="chat-window">
+      <div id="chat-output"></div>
+    </div>
+    <div id="chat-input-area">
+      <input id="chat-input" type="text" placeholder="Type a message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+</div>
+
+<!-- Chat Toggle Button -->
+<button id="chat-toggle" class="chat-toggle-button"><span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-text-fill" viewBox="0 0 16 16">
+    <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+  </svg>
+</span>Let's Chat!</button>
+<!--livechatbot end-->
 
      <!--HOME PAGE BOTTOM SECTION ABOUT SKYLA-->
      <div id="homeSectionThree" class="home-page-about-skyla-card ">
